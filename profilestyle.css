@@ -1,0 +1,114 @@
+
+p{
+    background-color:pink;color:blueviolet
+
+}
+.Vanita{
+    background-color:paleturquoise;
+    color: coral
+
+}
+
+#vd{
+    background-color:lightgoldenrodyellow;
+    color:rgb(183, 8, 166)
+
+}
+body{ 
+    
+     width:800px;
+    height:500px;
+background-color:lightpink;
+margin: 22px}
+    /* border:2px solid rgb(237, 9, 115); } */
+
+    .contact{
+        background-color: lightblue;
+        color:purple;
+        /* position: fixed; */
+         bottom: 40px;
+        right: 20px;
+        width: 200px;
+        height: 400px; 
+        overflow: scroll;
+        margin:3px 5px 10px 20px;
+    padding: 3px 5px 10px 20px;
+    }
+
+    /* div{
+        background:yellow;
+    }
+    dt{
+        background: blueviolet;
+        position: sticky;
+        top: 0;
+    } */
+    /* dd{
+        border-top: 1px solid pink;
+    } */
+    h2{
+        background-color: aquamarine;
+        color: darkmagenta;
+
+    }
+    .left,.right{
+        display: inline-block;
+    }
+
+    div.left{
+       
+        float: left;
+        width: 55%;
+        padding: 10px;
+        /* text-align: center; */
+    }
+     .right{
+    
+        float: right;
+        width: calc(45% - 40px);
+        padding: 10px;
+    } 
+    .butterfly{
+        position: fixed;
+        top: 0px;
+        right: 0px;
+
+    }
+    .image{
+        position: relative;
+        left: 90px;
+        border: 10px double rebeccapurple ;
+    }
+
+    header{
+        
+            background-image: linear-gradient(blue,indigo,violet);
+        
+    }
+    p::first-letter {
+        color:magenta;
+        font-size: xx-large;
+      }
+      .vini{
+        font-size: 25px;
+        color:darkmagenta;
+        background-color: rebeccapurple ;
+       
+
+      }
+      dd,i{
+        color:rgb(255, 102, 204);
+        text-align: center;
+        font-size: 15px;
+   
+       
+      }
+      tr td{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      } 
+      div p{
+        font-style: italic;
+      }
+      div+p{
+        font-weight: bold;
+      }
